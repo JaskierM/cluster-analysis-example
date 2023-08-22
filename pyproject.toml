@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cluster-analysis-example"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["Borodynya Maxim <borody.maxim@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/JaskierM/cluster-analysis-example"
+keywords = ["ml", "clustering", "analysis"]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
