@@ -1,17 +1,17 @@
 .PHONY: notebooks
 .EXPORT_ALL_VARIABLES:
 
+lock:
+	poetry lock
+
 install:
-	@echo "Poetry installing..."
 	poetry install
 	poetry run install
 	
 update:
-	@echo "Poetry updating..."
 	poetry update
 
 activate:
-	@echo "Activating virtual environment"
 	poetry shell
 
 initialize_git:

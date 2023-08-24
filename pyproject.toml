@@ -13,9 +13,11 @@ keywords = ["ml", "clustering", "analysis"]
 python = ">=3.10,<3.11"
 
 
-[tool.poetry.group.dev.dependencies]
+
+[tool.poetry.group.research.dependencies]
 dataprep = "^0.4.5"
 jupyter = "^1.0.0"
+scikit-learn = "^1.3.0"
 
 
 [build-system]
