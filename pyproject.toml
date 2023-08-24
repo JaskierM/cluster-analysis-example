@@ -10,7 +10,12 @@ keywords = ["ml", "clustering", "analysis"]
 
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10,<3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+dataprep = "^0.4.5"
+jupyter = "^1.0.0"
 
 
 [build-system]
